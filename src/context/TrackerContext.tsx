@@ -21,16 +21,16 @@ interface TrackerContextType {
 }
 
 const defaultState: TrackerState = {
-    googleAnalytics: false,
-    googleTagManager: false,
-    facebookPixel: false,
-    hotjar: false,
-    youtubeEmbed: false,
-    vimeoEmbed: false,
-    googleMaps: false,
-    brokenScript: false,
-    ghostPixel: false,
-    shadowDom: false,
+    googleAnalytics: true,
+    googleTagManager: true,
+    facebookPixel: true,
+    hotjar: true,
+    youtubeEmbed: true,
+    vimeoEmbed: true,
+    googleMaps: true,
+    brokenScript: true,
+    ghostPixel: true,
+    shadowDom: true,
 };
 
 const TrackerContext = createContext<TrackerContextType | undefined>(undefined);
